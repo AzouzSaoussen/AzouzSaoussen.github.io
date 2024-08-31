@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Azouz Saoussen - Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6d3c0f1d33.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/saoussen-logo-zip-file (1)/png/logo-no-background.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark fas" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+                    <h1>Hi, I'm <span>Saoussen </span><br>Azouz From Tunisia</h1>
+                </div>
+            </div>
+        </div>
+<!-----------------about------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a passionate and driven software engineering with a strong foundation in programming, problem-solving, and innovative thinking. Currently pursuing my degree, I have developed proficiency in various programming languages and technologies, including  Java, Python, JavaScript, C, C++ and PL/SQL. My academic journey has equipped me with a solid understanding of software development principles, algorithms, and data structures. Beyond the classroom, I actively engage in personal projects and collaborative efforts, which have honed my skills in real-world applications and teamwork. I am particularly interested in back-end development, Machine Learning, Deep learning and I am constantly seeking opportunities to learn and grow in these fields. With a keen eye for detail and a commitment to excellence, I am excited to contribute to innovative projects and bring impactful solutions to life.</p>
+                        <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python</span><br>Django, Flask, Tensorflow, Pytorch, Keras, Scikit-learn, </li>
+                                <li><span>Python</span><br>Django, Flask, Tensorflow, Pytorch, Keras, Scikit-learn, </li>
+                                <li><span>Java</span><br>JEE, SpringBoot </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Machine learning Trainee</span><br>Django, Flask, Tensorflow, Pytorch, Keras, Scikit-learn, </li>
+                                <li><span>Python</span><br>Django, Flask, Tensorflow, Pytorch, Keras, Scikit-learn, </li>
+                                <li><span>Java</span><br>JEE, SpringBoot </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018</span><br>Django, Flask, Tensorflow, Pytorch, Keras, Scikit-learn, </li>
+                                <li><span>2020</span><br>Django, Flask, Tensorflow, Pytorch, Keras, Scikit-learn, </li>
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------Services------------>   
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <img src="images/icons/api.png" alt="web api" width="40" height="40">
+                <h2>Back-End development</h2>
+                <p> <span>Languages:</span>Java, Python, C++, C</p><br>
+                <p><span>Skills:</span>Building robust and scalable server-side applications, RESTful API development, microservices architecture, performance optimization</p>
+                <a href="backend.html">Learn more</a>
+            </div>
+            <div>
+                <img src="images/icons/ai.png" alt="artificiel intelligence" width="40" height="40">
+                <h2>Machine Learning & Deep Learning</h2>
+                <p><span>Languages:</span> Python, R</p> <br>
+                <p><span>Skills:</span> Data Preprocessing, Model Training, Model Deployment</p>
+                <p><span>Frameworks&Tools</span> tensorflow, PyTorch, SciKit-learn</p>
+                <a href="machine_learning.html">Learn more</a>
+            </div>
+            <div>
+                <img src="images/icons/mobile.png" alt="mobile development" width="40" height="40">
+                <h2>Mobile Development</h2>
+                <p><span>Platforms: </span>Android Dtudio, Flatter</p>
+                <p><span>Skills: </span> Cross-platform App Development</p>
+                <a href="mobile_dev.html">Learn more</a>
+            </div>
+            <div>
+                <img src="images/icons/database.png" alt="database" width="40" height="40">
+                <h2>Database Management</h2>
+                <p><span>Databases: </span>MySQL, OracleSQL, PostgreSQL, MongoDB, SQLite, Firebase</p> <br>
+                <p><span>Skills: </span> Database Design, Query Optimization, Backup & Recovery</p>
+                <a href="database_manag.html">Learn more</a>
+            </div>
+            <div>
+                <img src="images/icons/devops.png" alt="devops" width="40" height="40">
+                <h2>DevOps</h2>
+                <p><span>Tools: </span>Docker, Kubernetes, Jenkins, Git</p>
+                <p><span>Skills: </span> CI/CD Pipelines, Infrastructure as Code, Monitoring & Logging</p>
+                <a href="devops.html">Learn more</a>
+            </div>
+            <div>
+                <img src="images/icons/cloud.png" alt="cloud" width="40" height="40">
+                <h2>Cloud Computing</h2>
+                <p><span>Platform: </span>Microsoft Azure</p>
+                <p><span>Skills: </span>Cloud Architecture Design, Deployment & Management, Serverless Computing</p>
+                <a href="cloud_comp.html">Learn more</a>
+            </div>
+            <div>
+                <img src="images/icons/learn.png" alt="learn" width="40" height="40">
+                <h2>learn With Me</h2>
+                <p><h3>Medium Blogs: </h3> <br>Access my curated blog posts summarizing key insights from books I've read and tricks I've learned.</p> <br>
+                <ul><li><p><span>Book Summaries: </span>Condensed insights and takeaways from the latest and most influential tech books.</p></li><br>
+                    <li><p><span>Tech Tips: </span>Practical tips and tricks across various domains like coding best practices, development tools, and more.</p></li><br>
+                    <li><p><span>Learning Resource: </span>Recommendations for courses, articles, and tutorials to enhance your knowledge.</p></li></ul><br>
+                <a href="cloud_comp.html">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div> 
+<!-----------portfolio----------> 
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" alt="">
+                <div class="layer">
+                    <h3>Natural language preprocessing</h3>
+                    <p>Arabic tweets classification into negatives/posives ones using machine learning algorithms</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/architecture.png" alt="">
+                <div class="layer">
+                <h3>Online e-commence shop</h3>
+                <p>Back-end with Microservices architecture developed using SpringBoot</p>
+                <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="">
+                <div class="layer">
+                    <h3>Brain Tumor Segmentation</h3>
+                    <p>Plateform for Deep learning for brain tumor segmentation </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+   </div>
+<!-----------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>azzouz.saoussen2712@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+216 58 070 777</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009800196825"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/SaoussenAzzouz"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/iris_izz/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/saoussen-azzouz-2209b1241/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/AzouzSaoussen"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/AZZOUZ_SAOUSSEN_en.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form method="post" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" id="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2024 Saoussen Azouz. All rights reserved. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+        <script>
+            var sidemenu =document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwj6LgDJfzzbOa2iynpe4Bomf2lzvacusLqPRXOjZv67M0WwMFjA61jkuYViksJDJR2Zw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>

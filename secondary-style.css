@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: #080808;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background:#fff;
+    
+    
+}
+nav h1{
+    color:#080808;
+    margin: 10px 20px;
+    font-weight: 900;
+}
+.logo{
+    width: 150px;
+    margin-top: 2%;
+
+}
+.container {
+    padding: 10px 10%;
+}
+section h5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right,  #ff004f, #ff83aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+h1, h2, h3, h4 {
+    color: #fff;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background: url('images/icons/check-white.png') no-repeat left center;
+    padding-left: 40px;
+    line-height: 40px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+   
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+section ul li {
+    color: #fff;
+}
+
+article {
+    margin-top: 10px;
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(77, 75, 75, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background 0.5s, transform 0.5s;;
+}
+article:hover{
+    background: linear-gradient(to right, #ff004f, #e45381);
+    transform: translateX(-10px);
+}
+
+article h3 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 20px;
+    display: inline-block;
+    color: #cd1952;
+    transition: text-decoration-line 0.5s;
+  
+}
+a:hover{
+    text-decoration-line: underline;
+}
+
+.back-link {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition:background 0.5s
+}
+
+.back-link:hover {
+    background: #cd1952;
+}
