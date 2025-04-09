@@ -8,13 +8,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: #6b6b6b;
     color: #fff;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/IMG_20230120_142403_223-removebg-preview.png);
+    background-image: url(images/main.png);
     background-size: cover;
     background-position: center;
 }
@@ -47,7 +47,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #479c7b9f;
     position: absolute;
     left:0;
     bottom: -6px;
@@ -66,7 +66,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #479c7b9f;
 
 }
 /*---------------about--------------*/
@@ -110,7 +110,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #479c7b9f;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -125,7 +125,7 @@ nav ul li a:hover::after{
 
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #5fe7b09f;
     font-size: 14px;
 }
 .tab-contents {
@@ -173,13 +173,13 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff0051ad;
+    background: #91c3b09f;
     transform: translateY(-10px);
 }
 .services-list div p span{
     font-size: 15px;
     margin-right: 5px;
-    color: #ffc5d8c0;
+    color: #5fe7b09f;
    
 }
 
@@ -208,7 +208,7 @@ nav ul li a:hover::after{
 .layer{
     width:100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),#479c7b9f);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -229,7 +229,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #479c7b9f;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -250,7 +250,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #479c7b9f;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -258,7 +258,7 @@ nav ul li a:hover::after{
     transition:background 0.5s
 }
 .btn:hover{
-    background: #ff004f;
+    background: #479c7b9f;
 }
 
 /*----------------contact----*/
@@ -272,7 +272,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #479c7b9f;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -288,12 +288,12 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color:#ff004f;
+    color:#479c7b9f;
     transform: translate(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #479c7b9f;
 }
 #submit:hover{
     background-color: #ababaa;
@@ -329,7 +329,7 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #ff004f;
+    color: #479c7b9f;
 }
 /*----------css for small screens-------*/
 nav .fas{
@@ -353,7 +353,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #ff005196;
+        background: #479c7b9f;
         position: fixed;
         top: 0;
         right: -200px;
